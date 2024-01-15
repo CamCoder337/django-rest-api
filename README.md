@@ -57,6 +57,7 @@ Scroll and update the following line with  your frontend Server address
 CORS_ALLOWED_ORIGINS = ["Your_Frontend_Address"]
 
 <br />
+
 > Example
 <br />
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000",]
