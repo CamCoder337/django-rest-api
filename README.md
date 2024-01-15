@@ -8,14 +8,20 @@ Django API Boiler Plate
 
 - ✅ `User's registration`
 
+- ✅ `User's SignIn`
+
+- ✅ `User's SignOut`
+
+- ✅ `Basic User Profile Edit`
+
 
 <br />
 
 ## Manual Build
 > Download the code
 ```bash
-$ git clone https://github.com/CamCoder337/pma-api.git
-$ cd pma-api
+$ git clone https://github.com/CamCoder337/django-rest-api.git
+$ cd django-rest-api
 ```
 <br />
 
