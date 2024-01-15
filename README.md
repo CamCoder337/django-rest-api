@@ -47,10 +47,18 @@ $ python manage.py migrate
 <br />
 
 > Set Up Frontend Server
+<br />
 Go in core/settings.py
+
+<br />
 Scroll and update the following line with  your frontend Server address
+
+<br />
 CORS_ALLOWED_ORIGINS = ["Your_Frontend_Address"]
+
+<br />
 > Example
+<br />
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
 
 > Start the API Server
