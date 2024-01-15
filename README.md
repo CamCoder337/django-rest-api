@@ -46,12 +46,19 @@ $ python manage.py migrate
 ```
 <br />
 
+> Set Up Frontend Server
+Go in core/settings.py
+Scroll and update the following line with  your frontend Server address
+CORS_ALLOWED_ORIGINS = ["Your_Frontend_Address"]
+> Example
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:3000"]
+
 > Start the API Server
 ```bash
 $ python manage.py runserver 5000     # start api
 ```
 
-Use the API via `POSTMAN` or `Swagger Dashboard` at `localhost:5000`.
+Use the API via **[`POSTMAN](https://www.postman.com/grey-star-293238/workspace/django-rest-api/overview)** or `Swagger Dashboard` at `localhost:5000`.
 
 <br />
 
