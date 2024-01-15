@@ -66,7 +66,9 @@ CORS_ALLOWED_ORIGINS = ["http://localhost:3000",]
 $ python manage.py runserver 5000     # start api
 ```
 
-Use the API via **[`POSTMAN](https://www.postman.com/grey-star-293238/workspace/django-rest-api/overview)** or `Swagger Dashboard` at `localhost:5000`.
+Use the API  at `localhost:5000` via:
+<br />
+#### [POSTMAN](https://www.postman.com/grey-star-293238/workspace/django-rest-api/overview) or `Swagger Dashboard`
 
 <br />
 
