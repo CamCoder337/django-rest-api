@@ -33,6 +33,15 @@ $ pip3 install -r requirements.txt
 ```
 <br />
 
+> Setup for windows > Install modules via 'env'
+```
+$ virtualenv env
+$ .\env\Scripts\activate
+$ pip3 install -r requirements.txt
+```
+
+<br />
+
 > Setting up .env files
 <br />
 Set them up according to your needs (Check the sample) 🙂
